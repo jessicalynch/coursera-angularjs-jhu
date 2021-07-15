@@ -8,8 +8,15 @@
   <script src="app.js"></script>
 
   <style>
-    .disclaimer {opacity: .5; font-size: 80%; font-style: italic;}
-    .container {margin: 2em auto;}
+      .disclaimer {
+          opacity: .5;
+          font-size: 80%;
+          font-style: italic;
+      }
+
+      .container {
+          margin: 2em auto;
+      }
   </style>
 </head>
 <body>
@@ -23,7 +30,7 @@
              class="form-control border border-{{ colorClass }}" (keydown)="onKeyDown($event)">
     </div>
     <div class="form-group">
-      <button type="submit" class="btn btn-primary"  ng-click="checkIfTooMuch()">Check If Too Much*</button>
+      <button type="submit" class="btn btn-primary" ng-click="checkIfTooMuch()">Check If Too Much*</button>
     </div>
 
   </form>
